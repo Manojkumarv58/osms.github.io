@@ -1,0 +1,44 @@
+
+.navbar-brand{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Tiro Devanagari Sanskrit', serif;
+        font-size: 2em;
+        font-weight: bold;
+}
+/* change nav color */
+.navbar #myMenu .custom-nav .nav-item a{
+    
+    font-weight: bold;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color:white;
+    font-weight: bold;
+}
+/* make header responsive */
+
+.m1{
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+border-radius: 0px;
+min-height: 90vh;
+min-width: 70px;
+margin-top:74px;
+}
+/* header img sub title */
+.font-italic{
+    font-size: 24px;
+}
+/* margin for welcom to osms */
+.mainHeading{
+    margin-top: 50px;
+}
+/*  */
+@media only screen and (max-width:750px){
+.myClass{
+    margin-top: 350px;
+    text-align: center;
+}
+}
